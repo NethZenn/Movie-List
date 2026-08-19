@@ -11,8 +11,8 @@ export default function App() {
         <NavBar />
         <main className="main-content">
           <Routes>
-            <Route path="/Movie-List-Project" element={<Home />} />
-            <Route path="Movie-List-Project/favorite" element={<Favorite />} />
+            <Route path="/Movie-List" element={<Home />} />
+            <Route path="Movie-List/favorite" element={<Favorite />} />
           </Routes>
         </main>
       </MovieProvider>
